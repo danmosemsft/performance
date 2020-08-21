@@ -55,7 +55,7 @@ namespace System.Drawing.Tests
                     new ImageTestData(ImageFormat.Bmp),
                     new ImageTestData(ImageFormat.Jpeg),
                     new ImageTestData(ImageFormat.Png),
-                    new ImageTestData(ImageFormat.Gif)
+//                    new ImageTestData(ImageFormat.Gif)
                 };
             }
             catch (Exception) when (RuntimeInformation.IsOSPlatform(OSPlatform.Linux))
